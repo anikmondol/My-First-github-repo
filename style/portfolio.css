@@ -146,3 +146,32 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.skill-container{
+    display:flex;
+}
+
+.resume-container{
+    display:flex;
+    gap: 70px;
+}
+.resume-part-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-part-institute,.resume-part-description{
+    color: #757575;
+    font-size: 20px;
+}
+.resume-part-title{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px;
+}
